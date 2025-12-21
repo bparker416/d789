@@ -388,3 +388,5 @@ def plot_training_history(history, model_name="Model", save_path=None):
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
         print(f"Training history plot daved to {save_path}")
+
+    plt.show()
